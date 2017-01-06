@@ -4,7 +4,7 @@ var showHtml = function (elem) {
 var aardvark = {
 
 isBookmarklet: true,
-resourcePrefix: "http://karmatics.com/aardvark/",
+resourcePrefix: "https://github.com/programeggsoup/template/blob/master/",
 srcFiles: [
   'aardvarkStrings.js',
   'aardvarkUtils.js',
@@ -66,7 +66,7 @@ var ensureFresh = ""; // "?" + Math.round(Math.random()*100);
 for (var i=0; i<aardvark.srcFiles.length; i++) {
 	var scriptElem = document.createElement('script');
 	scriptElem.isAardvark = true;
-	scriptElem.src = ((aardvark.srcFiles[i].indexOf("http://") == 0) ?
+	scriptElem.src = ((aardvark.srcFiles[i].indexOf("https://") == 0) ?
 	    aardvark.srcFiles[i] : aardvark.resourcePrefix + aardvark.srcFiles[i]) + ensureFresh;
 	document.body.appendChild(scriptElem);
 	}
