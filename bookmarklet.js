@@ -4,7 +4,7 @@ var showHtml = function (elem) {
 var aardvark = {
 
 isBookmarklet: true,
-resourcePrefix: "https://raw.githubusercontent.com/programeggsoup/template/master/",
+resourcePrefix: "https://rawgithubusercontent.com/programeggsoup/template/master/",
 srcFiles: [
   'aardvarkStrings.js',
   'aardvarkUtils.js',
